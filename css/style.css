@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+}
+main {
+    margin: 10%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 100vh;
+}
+p {
+    font-family: 'Indie Flower', cursive;
+}
+div p {
+    margin: 1% 40%;
+    position: absolute;
+    font-weight: bold;
+    font-size: 18px;
+}
+button {
+    font-size: 42px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.player_wins {
+    font-family: 'Indie Flower', cursive;
+    color: rgb(255, 25, 33);
+    position: absolute;
+    margin: 0;
+    width: 80%;
+    height: 100vh;
+    background: white;
+    display: none;
+    border: 5px purple solid;
+    font-size: 48px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 25%;
+}
+#moves-text {
+    font-size: 24px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: blue;
+    padding: 0 47%;
+}
+.player_wins p {
+    margin: 2% 42%;
+    font-size: 40px;
+    font-weight: bold;
+}
